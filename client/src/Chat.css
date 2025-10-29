@@ -1,0 +1,40 @@
+.Chat {
+    max-width: 640;
+    margin: 2rem auto;
+    font-family: sans-serif;
+
+}
+
+.History {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 12;
+    height: 400;
+    overflow: auto;
+}
+
+.MessageContainer {
+    margin: 8px 0;
+}
+
+.Message {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 12;
+    white-space: pre-wrap;
+}
+
+.Form {
+    display: flex;
+    gap: 8;
+    margin-top: 12;
+}
+
+.Input {
+    flex: 1;
+    padding: 10;
+    border-radius: 8;
+    border: 1px solid lightgray;
+
+}
+
